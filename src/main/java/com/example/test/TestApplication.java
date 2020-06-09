@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class TestApplication {
     @Bean
-    public Function<String, String> test() {
+    public Function<String, String> uppercase() {
         return s -> s.toUpperCase();
     }
 	public static void main(String[] args) {
